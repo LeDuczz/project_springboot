@@ -53,8 +53,8 @@ public class SecurityConfig {
                 )
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/auth/**").permitAll()
-                        .requestMatchers("/api/v1/user/**").hasAnyRole("USER", "ADMIN")
-                        .requestMatchers("api/payment/**").hasAnyRole("USER")
+                        .requestMatchers("/api/user/**").hasAnyRole("USER", "ADMIN")
+                        .requestMatchers("/api/payment/**").hasAnyRole("USER")
                         .requestMatchers("/h2-console/**").permitAll()
                         .requestMatchers("/favicon.ico").permitAll()
                         .requestMatchers(
@@ -66,7 +66,7 @@ public class SecurityConfig {
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
-            .build();
+                .build();
 
     }
 

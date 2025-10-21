@@ -1,4 +1,4 @@
-package com.example.demo.dto.authaccountDTO.response;
+package com.example.demo.dto.authaccountdto.response;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

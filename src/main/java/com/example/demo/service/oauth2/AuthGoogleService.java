@@ -1,7 +1,6 @@
 package com.example.demo.service.oauth2;
 
-import com.example.demo.dto.authaccountDTO.response.LoginAccountResponse;
-import com.example.demo.entity.PermissionEntity;
+import com.example.demo.dto.authaccountdto.response.LoginAccountResponse;
 import com.example.demo.entity.RoleEntity;
 import com.example.demo.entity.UserEntity;
 import com.example.demo.enums.AuthProvider;
@@ -24,7 +23,6 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
 import java.util.UUID;

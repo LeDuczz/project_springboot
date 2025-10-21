@@ -1,9 +1,8 @@
 package com.example.demo.service.oauth2;
 
-import com.example.demo.dto.authaccountDTO.response.FacebookTokenResponse;
-import com.example.demo.dto.authaccountDTO.response.FacebookUserResponse;
-import com.example.demo.dto.authaccountDTO.response.LoginAccountResponse;
-import com.example.demo.entity.PermissionEntity;
+import com.example.demo.dto.authaccountdto.response.FacebookTokenResponse;
+import com.example.demo.dto.authaccountdto.response.FacebookUserResponse;
+import com.example.demo.dto.authaccountdto.response.LoginAccountResponse;
 import com.example.demo.entity.RoleEntity;
 import com.example.demo.entity.UserEntity;
 import com.example.demo.enums.AuthProvider;
@@ -17,15 +16,12 @@ import com.example.demo.utils.CookieUtils;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.util.Collection;
 import java.util.Collections;
 
 @Service

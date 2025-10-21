@@ -1,9 +1,9 @@
 package com.example.demo.service.authaccountservice;
 
-import com.example.demo.dto.authaccountDTO.request.LoginRequest;
-import com.example.demo.dto.authaccountDTO.request.RegisterRequest;
-import com.example.demo.dto.authaccountDTO.response.LoginAccountResponse;
-import com.example.demo.dto.authaccountDTO.response.RegisterAccountResponse;
+import com.example.demo.dto.authaccountdto.request.LoginRequest;
+import com.example.demo.dto.authaccountdto.request.RegisterRequest;
+import com.example.demo.dto.authaccountdto.response.LoginAccountResponse;
+import com.example.demo.dto.authaccountdto.response.RegisterAccountResponse;
 import com.example.demo.entity.RoleEntity;
 import com.example.demo.entity.UserEntity;
 import com.example.demo.enums.AuthProvider;

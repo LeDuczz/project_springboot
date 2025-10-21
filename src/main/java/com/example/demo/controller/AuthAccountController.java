@@ -1,10 +1,10 @@
 package com.example.demo.controller;
 
 import com.example.demo.base.BaseResponse;
-import com.example.demo.dto.authaccountDTO.request.LoginRequest;
-import com.example.demo.dto.authaccountDTO.request.RegisterRequest;
-import com.example.demo.dto.authaccountDTO.response.LoginAccountResponse;
-import com.example.demo.dto.authaccountDTO.response.RegisterAccountResponse;
+import com.example.demo.dto.authaccountdto.request.LoginRequest;
+import com.example.demo.dto.authaccountdto.request.RegisterRequest;
+import com.example.demo.dto.authaccountdto.response.LoginAccountResponse;
+import com.example.demo.dto.authaccountdto.response.RegisterAccountResponse;
 import com.example.demo.service.authaccountservice.AuthAccountService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.base.BaseResponse;
-import com.example.demo.dto.authaccountDTO.response.LoginAccountResponse;
+import com.example.demo.dto.authaccountdto.response.LoginAccountResponse;
 import com.example.demo.service.oauth2.AuthGoogleService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
